@@ -28,10 +28,6 @@ A classic cheerful yellow smiley face featuring:
 
 Simply open the HTML files in any modern web browser to view the art:
 
-```bash
-# Example: Open Catface in Chrome (Windows)
-start chrome .\catface.html
-```
 
 Alternatively, just double-click the files in your file explorer.
 
