@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smiley Face</title>
+    <style>
+        div{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        h1{
+            text-align:center;
+            margin-top:60px;
+            
+        }
+        .face{
+            margin:auto;
+            background-color:yellow;
+            width:250px;
+            height:250px;
+            margin-top:100px;
+            border-radius:50%;
+            position:relative;
+        }
+        
+        .left-eye{
+            width:40px;
+            height:40px;
+            background-color:black;
+           left:50px;
+            border-radius:50%;
+            position:absolute;
+            top:50px;
+        }
+        .right-eye{
+            width:40px;
+            height:40px;
+            right:50px;
+            background-color:black;
+            position:absolute;
+            top:50px;
+            border-radius:50%;
+        }
+        .smile{
+            width:120px;
+            height:50px;
+         
+            border:8px solid black;
+            border-top:none;
+            border-left:none;
+            border-right:none;
+            border-radius:0px 0px 100px 100px;
+            position:absolute;
+            left:59px;
+            bottom:50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Smile — it’s contagious!</h1>
+    <div class="face">
+        <div class="eye">
+        <div class="left-eye">
+        </div>
+        <div class="right-eye"></div>
+        </div>
+        <div class="smile"></div>
+    </div>
+</body>
+</html>
