@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda face</title>
+    <style>
+        body {
+            background-color: #d9f2ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .face {
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            border-radius: 50%;
+            position: relative;
+            margin-top: 200px;
+        }
+
+        .left-ear {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            left: 10px;
+            top: -30px;
+            border-radius: 50%;
+            background-color: black;
+        }
+
+        .right-ear {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            right: 10px;
+            top: -30px;
+            border-radius: 50%;
+            background-color: black;
+        }
+
+        .left-eye {
+            width: 50px;
+            height: 70px;
+            position: absolute;
+            left: 50px;
+            background-color: black;
+            top: 60px;
+            border-radius: 50%;
+        }
+
+        .right-eye {
+            width: 50px;
+            height: 70px;
+            position: absolute;
+            right: 50px;
+            background-color: black;
+            top: 60px;
+            border-radius: 50%;
+        }
+
+        .inner-eye {
+            width: 20px;
+            height: 20px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            border-radius: 50%;
+            /* margin:20px 15px; */
+            top: 20px;
+        }
+
+        .left-eye .inner-eye,
+        .right-eye .inner-eye {
+            left: 15px;
+        }
+
+        .nose {
+            width: 40px;
+            height: 20px;
+            background-color: black;
+            position: absolute;
+            top: 140px;
+            left: 105px;
+            border-radius: 50%;
+        }
+
+        .mouth {
+            position: absolute;
+            top: 165px;
+            left: 92px;
+            width: 70px;
+            height: 40px;
+        }
+
+        .left-mouth,
+        .right-mouth {
+            width: 30px;
+            height: 15px;
+            border-bottom: 3px solid black;
+            border-radius: 0 0 20px 20px;
+            position: absolute;
+        }
+
+        .left-mouth {
+            left: 4px;
+            transform: rotate(10deg);
+        }
+
+        .right-mouth {
+            right: 4px;
+            transform: rotate(-10deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="panda">
+        <div class="face">
+            <div class="left-ear"></div>
+            <div class="right-ear"></div>
+            <div class="left-eye">
+                <div class="inner-eye"></div>
+            </div>
+            <div class="right-eye">
+                <div class="inner-eye"></div>
+            </div>
+            <div class="nose"></div>
+            <div class="mouth">
+                <div class="left-mouth"></div>
+                <div class="right-mouth"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
